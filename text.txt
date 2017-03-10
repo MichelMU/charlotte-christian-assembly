@@ -1,1 +1,107 @@
-ffffffff
+*{
+	
+	margin:10px;
+	padding:0px;
+	
+}
+
+body{
+	
+
+	text-align:center;
+	
+}
+
+#page_center{
+	width:960;  /* the width of our webpage is 960, left-side: 240px */
+	text-align:left;
+	background:white;
+	margin:10px auto;
+}
+#page_header{
+	
+	background-color: rgb(22,0,180);
+	color:white;
+	
+}
+
+#logo{
+	
+	display:inline;
+	padding:5px 2px 10px 10px;    /*top, right, bottom, left */
+	vertical-align:middle;
+}
+
+#tag_line{
+	
+	display:inline
+	
+}
+
+#page_nav{
+	
+	background-color: black;
+	padding: 10px;
+}
+
+#page_nav ul{
+	
+	list-style-type: none;
+	
+}
+
+#page_nav a{
+	
+	color: white;
+	
+}
+
+#page_nav li{
+	
+	display: inline;
+	padding: 10px;
+	
+}
+
+#left_side{
+	
+background-color:rgb(249,249,148);
+width:240px;
+float:left;
+
+	
+}
+
+#main_section{
+	
+float:left;
+width:720px;
+background-color:white;
+
+}
+
+.main_article{
+	background-color:rgb(198,255,255);
+	float:left;
+	margin:10px;
+	border:2px solid black;
+	width:200px;
+	height:225px;
+}
+
+.main_article header{
+	background-color:yellow;
+}
+.main_article footer{
+	background-color:grey;
+	color:red;
+	
+}
+#page_footer{
+	clear:both;
+	background-color:grey;
+	text-align:center;
+	
+}
+
+
